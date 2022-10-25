@@ -2,7 +2,6 @@
 | Nama                      | NRP           |
 |---------------------------|---------------|
 |Moh rosy haqqy aminy       |5025211012     |
-|Moh rosy haqqy aminy       |5025211012     |
 |Charles                    |5025211082     |
 
 ### Code
