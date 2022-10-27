@@ -71,9 +71,15 @@ def bolzano(f, x0, x1):
 
             # penentuan x yang akan diganti
             if ft < 0:
-                x0 = xt
+                if(f0) < 0:
+                    x0 = xt
+                else:
+                    x1 = xt
             elif ft > 0:
-                x1 = xt
+                if(f0) > 0:
+                    x0 = xt
+                else:
+                    x1 = xt
             else:
                 break
         
