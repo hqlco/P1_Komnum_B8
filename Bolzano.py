@@ -9,6 +9,7 @@
 # Solve : Menggunakan library python pandas sebagai representasi tabel dan matplotlib untuk menampilkan grafik fungsi.
 #         Penyelesaian dibantu juga dengan library numpy dan Equation untuk mempermudah perhitungan.
 
+import math
 import numpy as np
 import pandas as pd
 from Equation import Expression
@@ -20,6 +21,16 @@ precision = 0.01
 # fungsi untuk mengembalikan suatu string persamaan menjadi persamaan matematika
 def f(x):
     return (Expression(x))
+
+# Untuk function yang complex, perlu dimasukkan secara manual
+# Contoh complex equation :
+# euler = math.e
+# e**x = np.exp()
+# log =  math.log(a, base)
+# natural log = np.log(x)
+
+# copy function di bawah ini dan comment function di atas untuk menggunakan complex equation
+# np.log(x) (semua yang ada fx harus diganti dengan ini!)
 
 # fungsi untuk menggambar grafik
 def plotChart(f, equ, c, d):
